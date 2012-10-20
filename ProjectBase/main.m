@@ -1,9 +1,6 @@
 //
 //  main.m
 //
-//  Created by ToKoRo on 2012-10-20.
-//  Last Change: 2012-10-20.
-//
 
 #import "AppDelegate.h"
 
