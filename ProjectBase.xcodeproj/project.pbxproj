@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B9BAE991669351700824A0C /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B9BAE981669351700824A0C /* Storyboard.storyboard */; };
 		5BBAA3A01633709600DC320E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBAA39F1633709600DC320E /* MainViewController.m */; };
 		5BBAA3A41633717C00DC320E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBAA3A31633717C00DC320E /* AppDelegate.m */; };
-		5BBAA3A9163371F700DC320E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BBAA3A8163371F700DC320E /* MainViewController.xib */; };
 		5BC3B9DB1632859800BD637F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC3B9DA1632859800BD637F /* UIKit.framework */; };
 		5BC3B9DD1632859800BD637F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC3B9DC1632859800BD637F /* Foundation.framework */; };
 		5BC3B9DF1632859800BD637F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC3B9DE1632859800BD637F /* CoreGraphics.framework */; };
@@ -21,11 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B9BAE981669351700824A0C /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		5BBAA39E1633709600DC320E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		5BBAA39F1633709600DC320E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		5BBAA3A21633717C00DC320E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5BBAA3A31633717C00DC320E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5BBAA3A8163371F700DC320E /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		5BC3B9D61632859800BD637F /* ProjectBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BC3B9DA1632859800BD637F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5BC3B9DC1632859800BD637F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -75,23 +75,15 @@
 		5BBAA3A5163371C800DC320E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5BBAA3A6163371C800DC320E /* assets */,
 				5BBAA3A7163371C800DC320E /* xib */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		5BBAA3A6163371C800DC320E /* assets */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = assets;
-			sourceTree = "<group>";
-		};
 		5BBAA3A7163371C800DC320E /* xib */ = {
 			isa = PBXGroup;
 			children = (
-				5BBAA3A8163371F700DC320E /* MainViewController.xib */,
+				5B9BAE981669351700824A0C /* Storyboard.storyboard */,
 			);
 			path = xib;
 			sourceTree = "<group>";
@@ -201,7 +193,7 @@
 				5BC3B9ED1632859800BD637F /* Default.png in Resources */,
 				5BC3B9EF1632859800BD637F /* Default@2x.png in Resources */,
 				5BC3B9F11632859800BD637F /* Default-568h@2x.png in Resources */,
-				5BBAA3A9163371F700DC320E /* MainViewController.xib in Resources */,
+				5B9BAE991669351700824A0C /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
